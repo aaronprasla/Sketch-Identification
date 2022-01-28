@@ -1,0 +1,40 @@
+body {
+	background-color: lime;
+	color: red;
+}
+
+#show_sketch {
+	float: right;
+}
+
+h1 {
+	color: yellow;
+	background-color: white;
+	padding: 10px;
+}
+
+canvas {
+	border: 5px solid lightskyblue;
+	border-radius: 20px;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	margin-top: 50px;
+}
+
+@keyframes example {
+	0% {box-shadow: 0px 0px 38px red;}
+
+	25% {box-shadow: 0px 0px 38px lime;}
+
+	50% {box-shadow: 0px 0px 38px yellow;}
+
+	75% {box-shadow: 0px 0px 38px white;}
+
+	100% {box-shadow: 0px 0px 38px lightskyblue;}
+}
+
+p {
+	padding-top: 10px;
+	font-size: 25px;
+}
